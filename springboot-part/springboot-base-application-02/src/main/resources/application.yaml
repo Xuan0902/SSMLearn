@@ -1,0 +1,21 @@
+server:
+  port: 80
+  servlet:
+    context-path: /tsx
+
+
+tsx:
+  user:
+    username: adminapplication
+    gfs:
+      - a
+      - b
+      - c
+
+
+spring:
+  profiles:
+    active: test,dev
+    # application-[key]
+    # 激活外部的配置 application-test / application-dev
+    # 外部配置的key和application key重复 外部的覆盖内部!!

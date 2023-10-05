@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--无参构造-->
+    <bean id="happyComponent" class="cn.tsx.ioc_01.HappyComponent"/>
+
+    <!--静态工厂
+        调用静态工厂的方法，去创建对象，实现单例模式
+    -->
+    <bean id="clientService" class="cn.tsx.ioc_01.ClientService" factory-method="createInstance"/>
+
+    <!--非静态工厂实例化对象
+    -->
+    <!--首先先将工厂类放到ioc，因为没有办法直接调用非静态方法，只要放到ioc容器中就可以使用非静态工厂方法去得到对象-->
+    <bean id="defaultServiceLocator" class="cn.tsx.ioc_01.DefaultServiceLocator"/>
+    <!--
+        factory-bean指定哪个是工厂类
+        factory-method指定调用哪个方法得到对象
+    -->
+    <bean id="clientService2" factory-bean="defaultServiceLocator" factory-method="createClientServiceInstance"/>
+</beans>

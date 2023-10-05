@@ -1,0 +1,13 @@
+#springmvc的相关配置
+#server key下
+server:
+  port: 80
+  servlet:
+    #  项目根路径
+    context-path: /boot
+
+#更改静态资源存放的路径
+spring:
+  web:
+    resources:
+      static-locations: classpath:/webapp,classpath:/static

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.tsx.mapper.EmployeeMapper">
+    <delete id="deleteById">
+        delete
+        from t_emp
+        where emp_id = #{id}
+    </delete>
+    <select id="queryNameById" resultType="java.lang.String">
+        select emp_name
+        from t_emp
+        where emp_id = #{id}
+    </select>
+    <select id="querySalaryById" resultType="java.lang.Double">
+
+    </select>
+    <!-- Map<String,Object> selectEmpNameAndMaxSalary(); -->
+    <!-- 返回工资最高的员工的姓名和他的工资 -->
+    <select id="selectEmpNameAndMaxSalary" resultType="map">
+        SELECT emp_name                            员工姓名,
+               emp_salary                          员工工资,
+               (SELECT AVG(emp_salary) FROM t_emp) 部门平均工资
+        FROM t_emp
+        WHERE emp_salary = (SELECT MAX(emp_salary)
+                            FROM t_emp)
+    </select>
+    <select id="queryNamesBySalary" resultType="cn.tsx.pojo.Employee">
+        select *
+        from t_emp
+        where emp_salary > #{salary}
+    </select>
+    <select id="queryAll" resultType="cn.tsx.pojo.Employee">
+        select *
+        from t_emp;
+    </select>
+
+    <!--
+        useGeneratedKeys    我们要数据库自增长的主键
+        keyColumn   哪个列是主键
+        keyProperty    主键存放在哪个属性
+    -->
+    <insert id="insertEmp" useGeneratedKeys="true" keyColumn="emp_id" keyProperty="empId">
+        insert into t_emp (emp_name, emp_salary)
+        VALUES (#{empName}, #{empSalary});
+    </insert>
+</mapper>

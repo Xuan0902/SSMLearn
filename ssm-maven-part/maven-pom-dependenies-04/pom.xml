@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- gavp属性 -->
+    <!-- 不会改变 -->
+    <groupId>cn.tsx</groupId>
+    <artifactId>maven-pom-dependenies-04</artifactId>
+    <!--版本号-->
+    <version>1.0.1</version>
+    <!--打包方式 默认jar-->
+    <packaging>jar</packaging>
+
+    <!--声明版本号-->
+    <properties>
+        <!--声明一个全局变量！通过${mybatis.version}来引用
+            建议两级以上
+        -->
+        <mybatis.version>3.5.13</mybatis.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!--添加依赖-->
+    <dependencies>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>${mybatis.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>

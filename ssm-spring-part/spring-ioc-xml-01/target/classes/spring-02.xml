@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userDao" class="cn.tsx.ioc_02.UserDao"/>
+    <bean id="userService" class="cn.tsx.ioc_02.UserService">
+        <constructor-arg value="18"/>
+        <!--        <constructor-arg name="age" value="18"/>-->
+        <constructor-arg value="二狗子"/>
+        <!--        <constructor-arg name="name" value="名字"/>-->
+        <constructor-arg ref="userDao"/>
+        <!--        <constructor-arg name="userDao" ref="userDao"/>-->
+    </bean>
+
+    <bean id="movieFinder" class="cn.tsx.ioc_02.MovieFinder"/>
+    <bean id="simpleMovieLister" class="cn.tsx.ioc_02.SimpleMovieLister">
+        <property name="movieFinder" ref="movieFinder"/>
+        <property name="movieName" value="二狗子"/>
+    </bean>
+</beans>

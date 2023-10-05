@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.tsx.mapper.TeacherMapper">
+    <!--    插入之前，先指定一段sql语句，生成一个主键值！-->
+    <!--    order=“before|after”-->
+    <insert id="insertTeacher">
+        <selectKey order="BEFORE" resultType="string" keyProperty="tId">
+            select replace(uuid(), '-', '');
+        </selectKey>
+        insert into teacher (t_id, t_name)
+        VALUES (#{tId}, #{tName})
+    </insert>
+
+    <!--声明resultMap 自定义规则映射 type是返回类型-->
+    <!--
+        id  主键
+        result 普通
+    -->
+    <resultMap id="tMap" type="teacher">
+        <id column="t_id" property="tId"/>
+        <result column="t_name" property="tName"/>
+    </resultMap>
+    <select id="queryById" resultMap="tMap">
+        select *
+        from teacher
+        where t_id = #{tId};
+    </select>
+</mapper>

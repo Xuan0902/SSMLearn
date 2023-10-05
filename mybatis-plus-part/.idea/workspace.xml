@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98d8b84a-f387-4556-9300-c2d9966bc994" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Mapper" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Environment\maven\myRepository" />
+        <option name="mavenHome" value="E:/Environment/maven/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="E:\Environment\maven\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="17" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="2W42L3P5IX7W9TSrQ6PWd9gbNZX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/java_projects/mybatis-plus-part/mybatis-plus-mybatisx-05/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15429688",
+    "project.structure.side.proportion": "0.22800928",
+    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_projects\mybatis-plus-part\mybatis-plus-mybatisx-05\src\main\resources" />
+      <recent name="D:\java_projects\mybatis-plus-part\mybatis-plus-mybatisx-05\src\main\java\com\tsx" />
+      <recent name="D:\java_projects\mybatis-plus-part\mybatis-plus-mybatisx-05\src\main\resources\META-INF\spring" />
+      <recent name="D:\java_projects\mybatis-plus-part\mybatis-plus-other-04\src\main\resources\META-INF\spring" />
+      <recent name="D:\java_projects\mybatis-plus-part\mybatis-plus-other-04\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java_projects\mybatis-plus-part\mybatis-plus-other-04\src\main\resources\mapper" />
+      <recent name="D:\java_projects\mybatis-plus-part\mybatis-plus-crud-service-03\src\main\resources\META-INF\spring" />
+      <recent name="D:\java_projects\mybatis-plus-part\mybatis-plus-crud-mapper-02\src\main\resources\META-INF\spring" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tsx.pojo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MyBatisPlusVersionTest.testQuick7">
+    <configuration name="MyBatisPlusLambdaQueryWrapperTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-other-04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tsx.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tsx.test" />
+      <option name="MAIN_CLASS_NAME" value="com.tsx.test.MyBatisPlusLambdaQueryWrapperTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisPlusQueryWrapperTest.test06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-other-04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tsx.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tsx.test" />
+      <option name="MAIN_CLASS_NAME" value="com.tsx.test.MyBatisPlusQueryWrapperTest" />
+      <option name="METHOD_NAME" value="test06" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisPlusTableLogicTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-other-04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tsx.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tsx.test" />
+      <option name="MAIN_CLASS_NAME" value="com.tsx.test.MyBatisPlusTableLogicTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisPlusVersionTest.testQuick7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-other-04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tsx.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tsx.test" />
+      <option name="MAIN_CLASS_NAME" value="com.tsx.test.MyBatisPlusVersionTest" />
+      <option name="METHOD_NAME" value="testQuick7" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusIdTest.test_logicDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-other-04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tsx.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tsx.test" />
+      <option name="MAIN_CLASS_NAME" value="com.tsx.test.MybatisPlusIdTest" />
+      <option name="METHOD_NAME" value="test_logicDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mybatis-plus-crud-mapper-02" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tsx.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mybatis-plus-crud-service-03" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tsx.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mybatis-plus-other-04" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tsx.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mybatis-plus-base-quick-01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tsx.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MyBatisPlusLambdaQueryWrapperTest.test01" />
+      <item itemvalue="JUnit.MyBatisPlusQueryWrapperTest.test06" />
+      <item itemvalue="JUnit.MyBatisPlusTableLogicTest.test" />
+      <item itemvalue="JUnit.MyBatisPlusVersionTest.testQuick7" />
+      <item itemvalue="JUnit.MybatisPlusIdTest.test_logicDelete" />
+      <item itemvalue="Spring Boot.MainApplication (1)" />
+      <item itemvalue="Spring Boot.MainApplication (2)" />
+      <item itemvalue="Spring Boot.MainApplication (3)" />
+      <item itemvalue="Spring Boot.MainApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyBatisPlusVersionTest.testQuick7" />
+        <item itemvalue="JUnit.MyBatisPlusTableLogicTest.test" />
+        <item itemvalue="JUnit.MybatisPlusIdTest.test_logicDelete" />
+        <item itemvalue="JUnit.MyBatisPlusLambdaQueryWrapperTest.test01" />
+        <item itemvalue="JUnit.MyBatisPlusQueryWrapperTest.test06" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98d8b84a-f387-4556-9300-c2d9966bc994" name="Changes" comment="" />
+      <created>1692900499230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692900499230</updated>
+      <workItem from="1695977473356" duration="20272000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
